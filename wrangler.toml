@@ -79,6 +79,10 @@ run_worker_first = ["/api/*", "/identity/*"]
 # Defaults to 300 seconds (5 minutes) if not set.
 # ATTACHMENT_TTL_SECS = "300"
 
+# Controls showing the registration button in the client UI (server behavior unchanged).
+# Optional, Default: true
+DISABLE_USER_REGISTRATION = false
+
 # Cron triggers for scheduled tasks
 # Runs daily at 03:00 UTC to purge soft-deleted ciphers
 [triggers]
